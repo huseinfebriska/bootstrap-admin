@@ -142,7 +142,7 @@
 					<div class="navbar-text pull-right">
 						<span class="badge badge-important">Username</span>
 						<span>Username</span>
-						<a href="logout.php" title="Logout">Logout</a>
+						<a href="#" title="Logout">Logout</a>
 					</div>
 				</div><!--/.nav-collapse -->
 			</div>
@@ -156,53 +156,47 @@
 				<div class="sidebar-nav sipe-sidebar-nav">
 					<div class="sipe-sidebar-search">
 					
-					    <form class="form-inline" action="search-controller.php" method="post">
+					    <form class="form-inline" action="#" method="post">
 					    	<input type="text" placeholder="Masukkan nomor pesanan" name="order_number">
 					    	<button type="submit" class="btn" name="submit_search_order"><i class="icon-search"></i></button>
 					    </form>
 					</div><!--/search-->
 					
 					<ul class="nav nav-list sipe-nav-list">
-						<li><a href="start.php"><i class="icon-th"></i> Dashboard</a></li>
+						<li><a href="#"><i class="icon-th"></i> Dashboard</a></li>
 						<li class="sipe-parent-nav-active">
-							<a href="product.php?opt=view-list"><i class="icon-tags"></i> Produk</a>
-							<?php if(currentPageName() == 'product.php' || currentPageName() == 'size.php' || currentPageName() == 'color.php' || currentPageName() == 'category.php'): ?>
+							<a href="#"><i class="icon-tags"></i> Produk</a>
 							<ul class="sipe-nav-has-child">
-								<li><a href="size.php?opt=view-type">Jenis Produk</a></li>
-								<li><a href="size.php?opt=view-size">Ukuran</a></li>
-								<li><a href="color.php?opt=view-list">Warna</a></li>
-								<li><a href="category.php?opt=view-list">Kategori</a></li>
+								<li><a href="#">Jenis Produk</a></li>
+								<li><a href="#">Ukuran</a></li>
+								<li><a href="#">Warna</a></li>
+								<li><a href="#">Kategori</a></li>
 							</ul>
-							<?php endif; ?>
 						</li>
-						<li><a href="stock.php?opt=view-list"><i class="icon-th-list"></i> Stok</a></li>
-						<li><a href="order.php?opt=view-list"><i class="icon-shopping-cart"></i> Pesanan</a></li>
-						<li><a href="preorder.php?opt=view-list"><i class="icon-asterisk"></i> Pre-Order</a></li>
-						<li><a href="customer.php?opt=view-list"><i class="icon-user"></i> Pelanggan</a></li>
+						<li><a href="#"><i class="icon-th-list"></i> Stok</a></li>
+						<li><a href="#"><i class="icon-shopping-cart"></i> Pesanan</a></li>
+						<li><a href="#"><i class="icon-asterisk"></i> Pre-Order</a></li>
+						<li><a href="#"><i class="icon-user"></i> Pelanggan</a></li>
 						<li class="sipe-parent-nav-active">
-							<a href="content.php"><i class="icon-book"></i> Konten</a>
-							<?php if(currentPageName() == 'content.php' || currentPageName() == 'page.php' || currentPageName() == 'comment.php' || currentPageName() == 'featured.php' || currentPageName() == 'editor-choice.php'): ?>
+							<a href="#"><i class="icon-book"></i> Konten</a>
 							<ul class="sipe-nav-has-child">
-								<li><a href="page.php?opt=view-list">Page</a></li>
-								<li><a href="comment.php?opt=view-list">Komentar</a></li>
-								<li><a href="featured.php?opt=view-list">Featured</a></li>
-								<li><a href="editor-choice.php?opt=view-list">Editor's Choices</a></li>
+								<li><a href="#">Page</a></li>
+								<li><a href="#">Komentar</a></li>
+								<li><a href="#">Featured</a></li>
+								<li><a href="#">Editor's Choices</a></li>
 							</ul>
-							<?php endif; ?>
 						</li>
-						<li><a href="report.php?opt=view-list-online"><i class="icon-signal"></i> Laporan Penjualan</a></li>
+						<li><a href="#"><i class="icon-signal"></i> Laporan Penjualan</a></li>
 						<li class="sipe-parent-nav-active">
-							<a href="settings.php"><i class="icon-wrench"></i> Pengaturan</a>
-							<?php if(currentPageName() == 'settings.php' || currentPageName() == 'branch.php' || currentPageName() == 'delivery.php' || currentPageName() == 'payment.php' || currentPageName() == 'mail-template.php' || currentPageName() == 'user.php' || currentPageName() == 'settings-general.php'): ?>
+							<a href="#"><i class="icon-wrench"></i> Pengaturan</a>
 							<ul class="sipe-nav-has-child">
-								<li><a href="settings-general.php?opt=view">Pengaturan Umum</a></li>
-								<li><a href="branch.php?opt=view-list">Cabang</a></li>
-								<li><a href="delivery.php?opt=view-list">Ongkos Kirim</a></li>
-								<li><a href="payment.php?opt=view-list">Rekening Bank</a></li>
-								<li><a href="mail-template.php?opt=view-list">Template Email</a></li>
-								<li><a href="user.php?opt=view-list">User</a></li>
+								<li><a href="#">Pengaturan Umum</a></li>
+								<li><a href="#">Cabang</a></li>
+								<li><a href="#">Ongkos Kirim</a></li>
+								<li><a href="#">Rekening Bank</a></li>
+								<li><a href="#">Template Email</a></li>
+								<li><a href="#">User</a></li>
 							</ul>
-							<?php endif; ?>
 						</li>
 					</ul><!--/nav-->
 				</div>
