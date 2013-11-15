@@ -1,0 +1,268 @@
+body {
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+label.error {
+	font-size: 11px;
+	color: #ff0000;
+}
+
+.title .title {
+	font-weight: 500;
+	font-size: 20px;
+	float: left;
+}
+
+.title .large-title {
+	color: #eee;
+	font-weight: 300;
+	font-size: 42px;
+	float: right;	
+}
+
+.table-data-title {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.sipe-brand {
+	padding: 0 20px !important;
+	line-height: 40px;
+}
+
+.sidebar-nav {
+padding: 9px 0;
+}
+
+.sipe-container-fluid {
+  padding: 0 !important;
+}
+
+.sipe-main-sidebar {
+	position: fixed;
+	left: 0;
+	top: 40px;
+	bottom: 20px;
+	background: #eee url('../img/powered-desainesia.png') bottom center no-repeat;
+	border-right: 1px solid #ccc;
+}
+
+.sipe-sidebar-search {
+  margin: 10px 15px 0 ;
+}
+
+.sipe-sidebar-nav {
+  /*background-color: #eee;
+  border-right: 1px solid #ccc;*/
+}
+
+.sipe-nav-list {
+  padding-left: 0;
+}
+
+.sipe-nav-list > li {
+	  padding-left: 15px; 
+}
+
+
+.sipe-nav-list > li.sipe-parent-nav-active {
+  border-left: 3px solid #0088CC;
+}
+
+.sipe-nav-list > li > a {
+		border-top: 1px solid #ccc;
+		/*border-bottom: 1px solid #fff;*/
+		padding: 8px 15px;
+		color: #333;	  
+}
+
+.sipe-nav-list > li > a:hover,
+.sipe-nav-has-child > li > a:hover {
+   background-color: #d0d0d0;
+   text-decoration: none;
+}
+
+	   .sipe-nav-has-child {
+   	   padding-bottom: 10px;
+   	   margin-left: 15px;
+	   }
+	   
+   .sipe-nav-has-child > li {
+	   list-style: none;
+   }
+   
+   .sipe-nav-has-child > li > a {
+	   color: #333;
+	   display: block;
+	   padding: 5px;
+	   border-radius: 5px 5px 5px 5px;
+   }
+   
+   .sipe-main-content {
+	   position: fixed;
+	   right: 0;
+	   top: 40px;
+	   bottom: 20px;
+   }
+   
+   .sipe-inner-main-content {
+	   height: 100%;
+	   padding-right: 30px;
+	   overflow-y: auto;
+   }
+   
+   .sipe-header-title-border {
+	   font-weight: 300;
+	   border-bottom: 1px solid #ccc;
+	   font-size: 18px;
+   }
+
+.sipe-dashboard-reports {
+min-height: 220px;
+}
+
+.sipe-footer {
+	border-top: 1px solid #a0a0a0;
+	height: 20px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background: #ccc;
+	font-size: 10px;
+	color: #666;
+	line-height: 20px;
+} 
+
+.sipe-inner-footer {
+	margin: 0 10px;
+}
+
+.sipe-table-condensed {
+	font-size: 90%;
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	body {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.navbar-fixed-top {
+		margin-bottom: 0;
+	}
+	.sipe-main-sidebar {
+		position: relative;
+		top: 0;
+		bottom: 0;
+	}
+	.sipe-main-content {
+		position: relative;
+		top: 0;
+		bottom: 0;
+	}
+	.sipe-footer {
+		position: relative;
+	}
+	
+	
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 767px) { 
+	body {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.navbar-fixed-top {
+		margin-bottom: 0;
+	}
+	.sipe-main-content {
+		position: relative;
+		top: 0;
+		bottom: 0;
+	}
+	.sipe-main-sidebar {
+		position: relative;
+		top: 0;
+		bottom: 0;
+	}
+	.sipe-footer {
+		position: relative;
+	}
+	
+	
+}
+
+.system-message {
+	position: absolute;
+	top: -38px;
+	width: 60%;
+	left: 20%;
+	z-index: 99999;
+}
+
+#chart_div, #chart_div2, #chart_div4 {
+	height: 250px;
+	background: url('../../images/spin-loader.gif') center center no-repeat;
+}
+
+.sipe-size-list, .sipe-size-list td, .sipe-size-list th, .sipe-size-list tr {
+	border: none;
+	background-color: none !important;
+}
+
+.sipe-size-badge {
+	display: block;
+	text-align: center;
+}
+
+
+
+.sipe-color-hex-badge {
+	width: 50px;
+	text-align: center;
+}
+
+.sipe-size-metric-badge {
+	text-align: center;
+	color: #999;
+	display: block;
+}
+
+.sipe-stock-qty-badge {
+	text-align: center;
+	color: #333;
+	display: block;
+}
+
+.sipe-required {
+	color: #cc0000;
+}
+
+.sipe-tabs {
+	margin-bottom: 0;
+}
+
+.sipe-tabs-content {
+	background-color: #fff;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.sipe-tabs-content table, .sipe-tabs-content th, .sipe-tabs-content td, .sipe-tabs-content tr {
+	background: none !important;
+}
+
+.sipe-order-button-wrap {
+	margin: 5px 0;
+}
+
+.bar.sipe-inactive-bar {
+	background-color: #F7F7F7 !important;
+    background-image: none !important;
+    border: medium none;
+    color: #999999 !important;
+    text-shadow:none !important;
+}
